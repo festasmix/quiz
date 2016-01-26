@@ -40,7 +40,7 @@ app.directive('quiz', function(questions, levels) {
 					nome: 					 scope.name,
 					email: 					 scope.email,
 					identificador: 	 'iniciou-quiz',
-					token_rdstation: 'TOKEN-RDSTATION'
+					token_rdstation: 'ddd5dd5b256e308f420dc9c21a6808d3'
 				};
 
 				scope.send_to_rd_station(data_array);
@@ -95,7 +95,7 @@ app.directive('quiz', function(questions, levels) {
 						fracos:          scope.weak_categories.toString(),
 						fortes:          scope.strong_categories.toString(),
 						identificador: 	 'finalizou-quiz',
-						token_rdstation: 'TOKEN-RDSTATION'
+						token_rdstation: 'ddd5dd5b256e308f420dc9c21a6808d3'
 					};
 
 					scope.send_to_rd_station(data_array);
@@ -147,7 +147,7 @@ app.directive('quiz', function(questions, levels) {
 					email: 					 scope.email,
 					network_name:    network_name,
 					identificador: 	 'compartilhou-quiz',
-					token_rdstation: 'TOKEN-RDSTATION'
+					token_rdstation: 'ddd5dd5b256e308f420dc9c21a6808d3'
 				};
 
 				scope.send_to_rd_station(data_array);
