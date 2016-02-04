@@ -5,7 +5,7 @@ app.factory("questions", function() {
       var questions = [
 	{
       category: "Super Mãe",
-      quantity: 2,
+      quantity: 3,
       questions: [
         {
           question: "Como você sabe que a água da banheira esta boa?",
