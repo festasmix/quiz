@@ -10,10 +10,10 @@ app.factory("questions", function() {
         {
           question: "Como você sabe que a água da banheira esta boa?",
           options: [
-            "Termometro"	
-	    "Cotovelo"	
-	    "Mão"	
-	    "Pé"
+            "Termometro",	
+	    "Cotovelo",	
+	    "Mão",	
+	    "Pé",
           ],
           answer: 1,
           links: [
@@ -23,9 +23,9 @@ app.factory("questions", function() {
         {
           question: "Se o bebê chora, sempre é fome?",
           options: [
-            "Sim"	
-	    "Não"	
-	    "Talvez"
+            "Sim",	
+	    "Não",	
+	    "Talvez",
           ],
           answer: 2,
           links: [
@@ -35,10 +35,10 @@ app.factory("questions", function() {
         {
           question: "Com quantos meses os pediatras aconselham a dar comida ao bebê?",
           options: [
-            "4 Meses"	
-	    "1 Ano"	
-	    "5 Meses"	
-	    "6 Meses"
+            "4 Meses",	
+	    "1 Ano",	
+	    "5 Meses",	
+	    "6 Meses",
           ],
           answer: 4,
           links: [
