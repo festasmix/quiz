@@ -1,6 +1,52 @@
 app = angular.module("quizlet");
 
 app.factory("questions", function() {
+	var questions = [
+	{
+      category: "Super Mãe",
+      quantity: 2,
+      questions: [
+        {
+          question: "Como você sabe que a água da banheira esta boa?",
+          options: [
+            "Termometro"	
+			"Cotovelo"	
+			"Mão"	
+			"Pé"
+          ],
+          answer: 1,
+          links: [
+            { name: "Festas Mix", link: "http://festasmix.com.br" }
+          ]
+        },
+        {
+          question: "Se o bebê chora, sempre é fome?",
+          options: [
+            "Sim"	
+			"Não"	
+			"Talvez"
+          ],
+          answer: 2,
+          links: [
+            { name: "Festas Mix", link: "http://festasmix.com.br" }
+          ]
+        },
+        {
+          question: "Com quantos meses os pediatras aconselham a dar comida ao bebê?",
+          options: [
+            "4 Meses"	
+			"1 Ano"	
+			"5 Meses"	
+			"6 Meses"
+          ],
+          answer: 4,
+          links: [
+            { name: "Festas Mix", link: "http://festasmix.com.br" }
+          ]
+        },
+      ]
+    }
+  ];
 
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex ;
